@@ -1,6 +1,6 @@
 
 body{
-    background: linear-gradient(#160138,#35023B,#3D012B,#35023B,#160138);
+    background: linear-gradient(#203842,#1C5C53,#45BDBF,#0F343B,#203842);
     color: white;
     text-align: justify;
 }
@@ -61,6 +61,8 @@ h2{
     margin-top: 10px;
     margin-bottom: 20px;
     justify-content: center;
+    display: flex;
+    align-items: center;
 }
 
 hr{
@@ -86,7 +88,10 @@ li{
     margin-left: 10px;
     margin-right: 10px;
     text-align: center;
-    color: #25BA7C;
+    color: #070707;
+    text-decoration: double;
+    
+
 
 }
 
@@ -109,3 +114,8 @@ h3{
     text-align: center;
 }
 
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
