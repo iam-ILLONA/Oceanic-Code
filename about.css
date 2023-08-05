@@ -109,3 +109,13 @@ h3{
     transform: translateY(-2px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
   }
+
+
+  header{
+    display: flex;
+     justify-content: space-between;
+    padding: 20px;
+    gap :3rem;
+
+
+      }
